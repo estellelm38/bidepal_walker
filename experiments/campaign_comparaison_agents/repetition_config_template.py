@@ -1,10 +1,5 @@
 '''import numpy as np
 import exputils as eu
-from human_aware_navigation_rl.agent import *
-from human_aware_navigation_rl.env.mpi_env.mpi_env import MpiEnv, eval_function, log_function, memory_storage_analysis_function
-from human_aware_navigation_rl.networks import *
-from human_aware_navigation_rl.networks.utils.grid_autoencoders.grid_autoencoder import GridAutoEncoder
-from human_aware_navigation_rl.networks.utils.pre_nav_encoders.pre_nav_encoder import PreNavEncoder
 
 config = eu.AttrDict(
 
